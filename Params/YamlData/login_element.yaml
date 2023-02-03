@@ -12,3 +12,8 @@ login_element:
         pm: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[7]/div/div'
         camp: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[8]/div/div'
 
+      phone_register:
+        chinese_phone_register_element: '//*[@id="formLogin"]/div[3]/a[1]'
+        email_input_element: '//*[@id="email"]'
+
+

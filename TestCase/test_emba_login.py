@@ -18,6 +18,7 @@ class TestLogin(unittest.TestCase):
 
     def test_emba_login(self):
         self.dr.open_mba_login()
+        assert 1 == 1
 
 
 if __name__ == '__main__':
@@ -26,5 +27,3 @@ if __name__ == '__main__':
     suite.addTest(TestLogin('test_emba_login'))
     runner = unittest.TextTestRunner()
     runner.run(suite)
-
-

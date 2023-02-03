@@ -1,0 +1,14 @@
+---
+login_element:
+  dec: "login_element"
+  parameters:
+    -
+      apply_login_page:
+        emba: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div'
+        mba: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div'
+        mbax: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[3]/div/div/div'
+        dba: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[4]/div/div/div'
+        mbao: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[6]/div/div'
+        pm: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[7]/div/div'
+        camp: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[8]/div/div'
+

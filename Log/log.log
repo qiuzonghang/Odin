@@ -1,2 +1,62 @@
 [INFO 2023-02-03 15:26:31]open edge...
 [INFO 2023-02-03 15:26:56]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 15:39:47]open edge...
+[INFO 2023-02-03 15:40:12]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 15:40:12]正在对:('class name', 'ant-card-body') 元素实行点击事件
+[INFO 2023-02-03 15:40:12]正在定位:('class name', 'ant-card-body')元素
+[INFO 2023-02-03 15:49:08]open edge...
+[INFO 2023-02-03 15:49:33]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 15:49:33]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-03 15:49:33]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素实行点击事件
+[INFO 2023-02-03 16:20:03]open edge...
+[INFO 2023-02-03 16:20:27]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 16:20:27]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-03 16:20:27]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-03 16:20:27]进入MBA登录页
+[INFO 2023-02-03 16:23:38]open edge...
+[INFO 2023-02-03 16:24:03]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 16:24:03]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[3]/div/div/div')元素
+[INFO 2023-02-03 16:24:03]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[3]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-03 16:24:03]进入MBAX登录页
+[INFO 2023-02-03 16:51:32]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:52:01]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:52:19]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:52:32]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:53:16]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:53:28]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:53:42]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:53:48]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:53:53]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:56:01]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:56:09]open edge...
+[INFO 2023-02-03 16:57:12]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 16:57:12]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-03 16:57:12]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-03 16:57:12]进入EMBA登录页
+[INFO 2023-02-03 16:59:02]获取招生端各个招生项目元素。
+[INFO 2023-02-03 16:59:06]open edge...
+[INFO 2023-02-03 16:59:31]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 16:59:31]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-03 16:59:31]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-03 16:59:31]进入MBA登录页
+[INFO 2023-02-03 17:18:56]获取招生端各个招生项目元素。
+[INFO 2023-02-03 17:18:59]open edge...
+[INFO 2023-02-03 17:19:23]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 17:19:23]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-03 17:19:23]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-03 17:19:23]进入MBA登录页
+[INFO 2023-02-03 17:19:25]关闭浏览器.
+[INFO 2023-02-03 17:26:23]获取招生端各个招生项目元素。
+[INFO 2023-02-03 17:26:26]open edge...
+[INFO 2023-02-03 17:26:51]打开url，窗口最大化，隐式等待30s
+[INFO 2023-02-03 17:26:51]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-03 17:26:51]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-03 17:26:51]进入MBA登录页
+[INFO 2023-02-03 17:26:53]关闭浏览器.
+[INFO 2023-02-03 17:28:27]获取招生端各个招生项目元素。
+[INFO 2023-02-03 17:28:31]open edge...
+[INFO 2023-02-03 17:29:02]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-03 17:29:02]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-03 17:29:02]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-03 17:29:02]进入MBA登录页
+[INFO 2023-02-03 17:29:04]关闭浏览器.

@@ -12,8 +12,21 @@ login_element:
         pm: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[7]/div/div'
         camp: '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[8]/div/div'
 
-      phone_register:
+      emba_phone_register:
         chinese_phone_register_element: '//*[@id="formLogin"]/div[3]/a[1]'
         email_input_element: '//*[@id="email"]'
+        email_tips_element: '//*[@id="formRegister"]/div[1]/div/div/div'
+        first_name_element: '//*[@id="familyname"]'
+        last_name_element: '//*[@id="givenName"]'
+        card_type_element: '//*[@id="cardType"]/div/div/div'
+        card_cnId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[1]'
+        card_enId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[2]'
+        card_gatId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[3]'
+        card_number_element: '//*[@id="idCardNo"]'
+        card_tips_element: '//*[@id="formRegister"]/div[5]/div/div/div'
 
+      emba_login:
+        user_element: '//*[@id="username"]'
+        pw_element: '//*[@id="password"]'
+        ps_element: '//*[@id="formLogin"]/div[2]/div/div/span/button'
 

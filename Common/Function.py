@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from Conf.Config import Config
 from selenium.webdriver.support.wait import WebDriverWait
 from Params.params import get_login_page_element
+from selenium.webdriver.common.keys import Keys
 import os
 import time
 
@@ -33,9 +34,9 @@ class OpenWebDr:
 
     def start_dr(self, url, dr_type='edge', over_time=30):
         """
-        :param url:
-        :param dr_type:
-        :param over_time:
+        :param url: 打卡网址
+        :param dr_type: 浏览器，仅支持火狐、谷歌、edge
+        :param over_time: 隐式等待时间，实际未使用，忽略
         :return:
         """
         dr_path = os.path.abspath(os.path.join(os.getcwd(), "..")) + '/DriverFile/'
@@ -90,6 +91,11 @@ class OpenWebDr:
         a = self.base_find(loc).text
         log.info("正在获取:{} 元素文本值".format(loc))
         return a
+
+    # 清空输入框
+    def base_clean(self, loc):
+        self.base_find(loc).clear()
+        log.info("正在清空:{} 元素文本值".format(loc))
 
     def dr_close(self):
         self.dr.quit()

@@ -74,3 +74,449 @@
 [INFO 2023-02-03 17:59:09]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
 [INFO 2023-02-03 17:59:09]进入MBA登录页
 [INFO 2023-02-03 17:59:12]关闭浏览器.....
+[INFO 2023-02-06 15:35:50]获取招生端各个招生项目元素。
+[INFO 2023-02-06 15:35:54]open edge...
+[INFO 2023-02-06 15:36:19]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 15:36:19]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-06 15:36:19]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 15:36:19]进入MBA登录页
+[INFO 2023-02-06 15:36:21]关闭浏览器.....
+[INFO 2023-02-06 15:58:49]获取招生端各个招生项目元素。
+[INFO 2023-02-06 15:58:52]open edge...
+[INFO 2023-02-06 15:59:16]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 15:59:16]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-06 15:59:16]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 15:59:17]进入MBA登录页
+[INFO 2023-02-06 15:59:19]关闭浏览器.....
+[INFO 2023-02-06 16:01:28]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:01:32]open edge...
+[INFO 2023-02-06 16:01:55]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:01:55]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-06 16:01:55]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:01:56]进入MBA登录页
+[INFO 2023-02-06 16:01:58]关闭浏览器.....
+[INFO 2023-02-06 16:02:23]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:02:27]open edge...
+[INFO 2023-02-06 16:02:51]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:02:51]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-06 16:02:51]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:02:51]进入MBA登录页
+[INFO 2023-02-06 16:02:53]关闭浏览器.....
+[INFO 2023-02-06 16:16:47]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:21:21]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:21:21]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:21:25]open edge...
+[INFO 2023-02-06 16:21:49]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:21:49]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:21:49]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div')元素
+[INFO 2023-02-06 16:21:49]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[1]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:21:49]进入MBA登录页
+[INFO 2023-02-06 16:21:49]正在定位://*[@id="username"]元素
+[INFO 2023-02-06 16:21:56]关闭浏览器.....
+[INFO 2023-02-06 16:22:48]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:22:48]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:22:52]open edge...
+[INFO 2023-02-06 16:23:16]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:23:16]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:23:16]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 16:23:16]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:23:16]进入EMBA登录页
+[INFO 2023-02-06 16:23:16]正在定位://*[@id="username"]元素
+[INFO 2023-02-06 16:23:24]关闭浏览器.....
+[INFO 2023-02-06 16:25:20]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:25:21]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:25:24]open edge...
+[INFO 2023-02-06 16:25:49]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:25:49]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:25:49]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 16:25:49]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:25:49]进入EMBA登录页
+[INFO 2023-02-06 16:25:49]正在定位:('xpath', '//*[@id="username"]')元素
+[INFO 2023-02-06 16:25:49]正在对:('xpath', '//*[@id="username"]') 元素输入18210690318
+[INFO 2023-02-06 16:25:49]正在定位:('xpath', '//*[@id="password"]')元素
+[INFO 2023-02-06 16:25:49]正在对:('xpath', '//*[@id="password"]') 元素输入qwer1234
+[INFO 2023-02-06 16:25:49]正在定位:('xpath', '//*[@id="formLogin"]/div[2]/div/div/span/button')元素
+[INFO 2023-02-06 16:25:49]正在对:('xpath', '//*[@id="formLogin"]/div[2]/div/div/span/button') 元素进行行点击事件
+[INFO 2023-02-06 16:25:56]关闭浏览器.....
+[INFO 2023-02-06 16:49:24]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:49:27]open edge...
+[INFO 2023-02-06 16:49:52]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:49:52]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:49:52]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:49:52]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 16:49:52]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:49:52]进入EMBA登录页
+[INFO 2023-02-06 16:49:52]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 16:49:52]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 16:49:52]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 16:49:52]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 16:49:52]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 16:49:52]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 16:49:52]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 16:49:52]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 16:49:59]关闭浏览器.....
+[INFO 2023-02-06 16:50:13]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:50:16]open edge...
+[INFO 2023-02-06 16:50:41]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 16:50:41]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:50:41]获取招生端各个招生项目元素。
+[INFO 2023-02-06 16:50:41]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 16:50:41]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 16:50:41]进入EMBA登录页
+[INFO 2023-02-06 16:50:41]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 16:50:41]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 16:50:41]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 16:50:41]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 16:50:41]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 16:50:41]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 16:50:41]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 16:50:41]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[ERROR 2023-02-06 16:50:41]expected_text is 请输入正确的邮, text is 请输入正确的邮箱
+[INFO 2023-02-06 16:50:48]关闭浏览器.....
+[INFO 2023-02-06 17:00:20]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:00:24]open edge...
+[INFO 2023-02-06 17:00:48]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:00:48]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:00:48]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:00:48]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:00:48]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:00:48]进入EMBA登录页
+[INFO 2023-02-06 17:00:48]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:00:48]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:00:48]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:00:48]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:00:49]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:00:49]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:00:49]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:00:49]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:00:49]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:00:56]关闭浏览器.....
+[INFO 2023-02-06 17:01:00]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:01:03]open edge...
+[INFO 2023-02-06 17:01:28]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:01:28]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:01:28]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:01:28]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:01:28]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:01:28]进入EMBA登录页
+[INFO 2023-02-06 17:01:28]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:01:28]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:01:28]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:01:28]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 17:01:28]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:01:28]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:01:28]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:01:28]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[ERROR 2023-02-06 17:01:28]expected_text is 邮箱已存在, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:01:35]关闭浏览器.....
+[INFO 2023-02-06 17:15:06]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:15:10]open edge...
+[INFO 2023-02-06 17:15:35]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:15:35]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:15:35]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:15:35]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:15:35]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:15:35]进入EMBA登录页
+[INFO 2023-02-06 17:15:35]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:15:35]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:15:35]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:15:35]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:15:36]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:15:36]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:15:36]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:15:36]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:15:36]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:15:43]关闭浏览器.....
+[INFO 2023-02-06 17:15:47]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:15:50]open edge...
+[INFO 2023-02-06 17:19:34]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:19:38]open edge...
+[INFO 2023-02-06 17:20:03]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:20:03]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:20:03]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:20:03]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:20:03]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:20:03]进入EMBA登录页
+[INFO 2023-02-06 17:20:03]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:20:03]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:20:03]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:20:03]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:20:03]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:20:03]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:20:03]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:20:03]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:20:03]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:20:03]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[ERROR 2023-02-06 17:20:33]元素定位超时！
+[INFO 2023-02-06 17:20:33]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:20:40]关闭浏览器.....
+[INFO 2023-02-06 17:21:17]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:21:20]open edge...
+[INFO 2023-02-06 17:21:45]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:21:45]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:21:45]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:21:45]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:21:45]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:21:45]进入EMBA登录页
+[INFO 2023-02-06 17:21:45]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:21:45]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:21:45]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:21:45]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:21:45]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:21:45]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:21:45]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:21:45]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:21:45]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:21:45]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:21:45]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 17:21:46]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:21:46]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:21:46]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:21:46]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[ERROR 2023-02-06 17:21:46]expected_text is 邮箱已存在, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:21:53]关闭浏览器.....
+[INFO 2023-02-06 17:23:52]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:24:09]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:24:12]open edge...
+[INFO 2023-02-06 17:24:56]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:24:56]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:24:56]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:24:56]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:24:56]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:24:56]进入EMBA登录页
+[INFO 2023-02-06 17:24:56]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:24:56]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:24:56]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:24:56]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:24:56]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:24:56]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:24:56]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:24:56]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:24:56]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:25:04]关闭浏览器.....
+[INFO 2023-02-06 17:27:46]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:27:50]open edge...
+[INFO 2023-02-06 17:28:35]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:28:35]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:28:35]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:28:35]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:28:35]进入EMBA登录页
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:28:35]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:28:35]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:28:35]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:28:35]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:28:35]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:28:35]正在清空:('xpath', '//*[@id="email"]') 元素文本值
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:28:35]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:28:35]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:28:35]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:28:35]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[ERROR 2023-02-06 17:28:35]expected_text is 邮箱已存在, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:28:43]关闭浏览器.....
+[INFO 2023-02-06 17:29:13]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:29:16]open edge...
+[INFO 2023-02-06 17:29:41]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:29:45]open edge...
+[INFO 2023-02-06 17:30:09]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:30:09]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:30:09]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:30:09]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:30:09]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:30:09]进入EMBA登录页
+[INFO 2023-02-06 17:30:09]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:30:09]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:30:09]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:30:09]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:30:10]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:30:10]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:30:10]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:30:10]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:30:10]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:30:10]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:30:10]正在清空:('xpath', '//*[@id="email"]') 元素文本值
+[INFO 2023-02-06 17:30:10]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:30:10]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 17:30:10]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:30:10]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:30:13]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:30:13]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:30:13]expected_text is 邮箱已存在, text is 邮箱已存在
+[INFO 2023-02-06 17:30:20]关闭浏览器.....
+[INFO 2023-02-06 17:41:50]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:41:53]open edge...
+[INFO 2023-02-06 17:42:18]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 17:42:18]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:42:18]获取招生端各个招生项目元素。
+[INFO 2023-02-06 17:42:18]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 17:42:18]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 17:42:18]进入EMBA登录页
+[INFO 2023-02-06 17:42:18]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 17:42:19]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 17:42:19]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:42:19]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 17:42:19]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:42:19]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:42:19]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:42:19]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:42:19]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 17:42:19]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:42:19]正在清空:('xpath', '//*[@id="email"]') 元素文本值
+[INFO 2023-02-06 17:42:19]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 17:42:19]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 17:42:19]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 17:42:19]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 17:42:22]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 17:42:22]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 17:42:22]expected_text is 邮箱已存在, text is 邮箱已存在
+[INFO 2023-02-06 17:42:29]关闭浏览器.....
+[INFO 2023-02-06 18:08:09]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:08:13]open edge...
+[INFO 2023-02-06 18:08:37]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:08:37]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:08:37]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:08:37]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[INFO 2023-02-06 18:09:03]正在定位:('xpath', '//*[@id="idCardNo"]')元素
+[INFO 2023-02-06 18:09:03]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 18:09:03]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:09:10]关闭浏览器.....
+[INFO 2023-02-06 18:09:15]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:09:19]open edge...
+[INFO 2023-02-06 18:09:43]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:09:43]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:09:43]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:09:43]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[ERROR 2023-02-06 18:10:13]元素定位超时！
+[INFO 2023-02-06 18:10:13]正在对:('xpath', '//*[@id="cardType"]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:10:13]正在定位:('xpath', '//*[@id="idCardNo"]')元素
+[ERROR 2023-02-06 18:10:43]元素定位超时！
+[INFO 2023-02-06 18:10:43]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 18:10:43]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:10:43]进入EMBA登录页
+[INFO 2023-02-06 18:10:43]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 18:10:44]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 18:10:44]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:10:44]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 18:10:44]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:10:44]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:10:44]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 18:10:44]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:10:44]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 18:10:44]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:10:44]正在清空:('xpath', '//*[@id="email"]') 元素文本值
+[INFO 2023-02-06 18:10:44]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:10:44]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 18:10:44]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:10:44]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:10:47]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 18:10:47]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:10:47]expected_text is 邮箱已存在, text is 邮箱已存在
+[INFO 2023-02-06 18:10:54]关闭浏览器.....
+[INFO 2023-02-06 18:13:46]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:13:49]open edge...
+[INFO 2023-02-06 18:14:14]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:14:14]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:14:14]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:14:14]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[INFO 2023-02-06 18:14:47]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:14:50]open edge...
+[INFO 2023-02-06 18:15:14]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:15:14]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:15:15]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:15:15]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[ERROR 2023-02-06 18:15:45]元素定位超时！
+[INFO 2023-02-06 18:15:45]正在对:('xpath', '//*[@id="cardType"]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:15:45]正在定位:('xpath', '//*[@id="idCardNo"]')元素
+[ERROR 2023-02-06 18:16:15]元素定位超时！
+[INFO 2023-02-06 18:16:15]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 18:16:15]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:16:15]进入EMBA登录页
+[INFO 2023-02-06 18:16:15]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 18:16:15]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 18:16:15]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:16:15]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 18:16:15]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:16:15]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:16:15]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 18:16:15]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:16:15]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 18:16:15]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:16:15]正在清空:('xpath', '//*[@id="email"]') 元素文本值
+[INFO 2023-02-06 18:16:16]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:16:16]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 18:16:16]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:16:16]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:16:19]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 18:16:19]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:16:19]expected_text is 邮箱已存在, text is 邮箱已存在
+[INFO 2023-02-06 18:16:26]关闭浏览器.....
+[INFO 2023-02-06 18:16:50]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:16:53]open edge...
+[INFO 2023-02-06 18:17:17]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:17:17]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:17:17]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:17:17]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[INFO 2023-02-06 18:19:40]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:19:43]open edge...
+[INFO 2023-02-06 18:20:07]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:20:07]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:20:07]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 18:20:08]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:20:08]进入EMBA登录页
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 18:20:08]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:20:08]正在对:('xpath', '//*[@id="email"]') 元素输入123456
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:20:08]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 18:20:08]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:20:08]expected_text is 请输入正确的邮箱, text is 请输入正确的邮箱
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:20:08]正在清空:('xpath', '//*[@id="email"]') 元素文本值
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="email"]')元素
+[INFO 2023-02-06 18:20:08]正在对:('xpath', '//*[@id="email"]') 元素输入2448140961@qq.com
+[INFO 2023-02-06 18:20:08]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:20:08]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:20:11]正在定位:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div')元素
+[INFO 2023-02-06 18:20:11]正在获取:('xpath', '//*[@id="formRegister"]/div[1]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:20:11]expected_text is 邮箱已存在, text is 邮箱已存在
+[INFO 2023-02-06 18:20:11]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[INFO 2023-02-06 18:20:11]正在对:('xpath', '//*[@id="cardType"]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:20:11]正在定位:('xpath', '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[1]')元素
+[ERROR 2023-02-06 18:20:41]元素定位超时！
+[INFO 2023-02-06 18:20:41]正在对:('xpath', '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[1]') 元素进行行点击事件
+[INFO 2023-02-06 18:20:41]正在定位:('xpath', '//*[@id="idCardNo"]')元素
+[INFO 2023-02-06 18:20:41]正在清空:('xpath', '//*[@id="idCardNo"]') 元素文本值
+[INFO 2023-02-06 18:20:41]正在定位:('xpath', '//*[@id="idCardNo"]')元素
+[INFO 2023-02-06 18:20:41]正在对:('xpath', '//*[@id="idCardNo"]') 元素输入123456789098765432
+[INFO 2023-02-06 18:20:42]正在定位:('xpath', '//*[@id="familyname"]')元素
+[INFO 2023-02-06 18:20:42]正在对:('xpath', '//*[@id="familyname"]') 元素进行行点击事件
+[INFO 2023-02-06 18:20:45]正在定位:('xpath', '//*[@id="formRegister"]/div[5]/div/div/div')元素
+[INFO 2023-02-06 18:20:45]正在获取:('xpath', '//*[@id="formRegister"]/div[5]/div/div/div') 元素文本值
+[INFO 2023-02-06 18:20:45]expected_text is 证件号已存在, text is 证件号已存在
+[INFO 2023-02-06 18:20:52]关闭浏览器.....
+[INFO 2023-02-06 18:21:23]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:21:27]open edge...
+[INFO 2023-02-06 18:21:52]打开https://testapply.qintelligence.cn/#/，窗口最大化，隐式等待30s
+[INFO 2023-02-06 18:21:52]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:21:52]获取招生端各个招生项目元素。
+[INFO 2023-02-06 18:21:52]正在定位:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div')元素
+[INFO 2023-02-06 18:21:52]正在对:('xpath', '//*[@id="app"]/div/div/div/div[2]/div/div/div/div/a[2]/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:21:52]进入EMBA登录页
+[INFO 2023-02-06 18:21:52]正在定位:('xpath', '//*[@id="formLogin"]/div[3]/a[1]')元素
+[INFO 2023-02-06 18:21:52]正在对:('xpath', '//*[@id="formLogin"]/div[3]/a[1]') 元素进行行点击事件
+[INFO 2023-02-06 18:21:52]正在定位:('xpath', '//*[@id="cardType"]/div/div/div')元素
+[INFO 2023-02-06 18:21:52]正在对:('xpath', '//*[@id="cardType"]/div/div/div') 元素进行行点击事件
+[INFO 2023-02-06 18:21:52]正在定位:('xpath', '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[1]')元素
+[ERROR 2023-02-06 18:22:22]元素定位超时！
+[INFO 2023-02-06 18:22:22]正在对:('xpath', '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[1]') 元素进行行点击事件
+[INFO 2023-02-06 18:22:29]关闭浏览器.....

@@ -50,4 +50,6 @@ def get_login_page_element():
     return get_data.get_page_list().get('login_element')[0].get('apply_login_page')
 
 
-# print(get_login_element())
+def get_login_element():
+    log.info("获取招生端各个招生项目元素。")
+    return get_data.get_page_list().get('login_element')[0]

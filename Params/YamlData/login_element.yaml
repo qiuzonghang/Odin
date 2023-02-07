@@ -18,8 +18,8 @@ login_element:
         email_tips_element: '//*[@id="formRegister"]/div[1]/div/div/div'
         first_name_element: '//*[@id="familyname"]'
         last_name_element: '//*[@id="givenName"]'
-        card_type_element: '//*[@id="cardType"]/div/div/div'
-        card_cnId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[1]'
+        card_type_element: 'ant-select-selection__rendered'
+        card_cnId_element: "//*[text()='身份证']"
         card_enId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[2]'
         card_gatId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[3]'
         card_number_element: '//*[@id="idCardNo"]'

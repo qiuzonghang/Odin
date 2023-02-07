@@ -52,16 +52,21 @@ class TestLogin(unittest.TestCase):
         test.assert_text(text, '邮箱已存在')
 
     def test_03_register_cardCnIdInvalid(self):
-        self.dr.open_emba_login()
-        self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('chinese_phone_register_element')))
-        self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_type_element')))
+        """
+        注册身份证不足18位
+        """
+        self.dr.base_click(loc=(By.CLASS_NAME, self.embaPhoneRegisterElement.get('card_type_element')))
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_cnId_element')))
         self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_number_element')), value='123456')
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('first_name_element')))
+        time.sleep(1)
         text = self.dr.base_get_text(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_tips_element')))
         test.assert_text(text, '请输入18位证件号码')
 
     def test_04_register_cardCnIdThere(self):
+        """
+        注册身份证已存在
+        """
         self.dr.base_clean(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_number_element')))
         self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_number_element')), value='123456789098765432')
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('first_name_element')))

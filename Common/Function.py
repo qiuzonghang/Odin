@@ -15,6 +15,8 @@ from Conf.Config import Config
 from selenium.webdriver.support.wait import WebDriverWait
 from Params.params import get_login_page_element
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver import ActionChains
 import os
 import time
 
@@ -96,6 +98,11 @@ class OpenWebDr:
     def base_clean(self, loc):
         self.base_find(loc).clear()
         log.info("正在清空:{} 元素文本值".format(loc))
+
+    def base_select(self, loc_a, loc_b):
+        ActionChains(self.dr).move_to_element(self.base_find(loc_a)).perform()
+        self.base_click(loc_b)
+        time.sleep(3)
 
     def dr_close(self):
         self.dr.quit()

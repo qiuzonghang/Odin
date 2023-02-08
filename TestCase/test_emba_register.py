@@ -3,7 +3,7 @@
 # @Author : qiuzonghang
 # @File   : test_emba_register.py
 
-from Common.Function import OpenWebDr
+from Common.Function import OpenWebDr, get_conf, ConnectSql
 from Params.params import get_login_element
 from selenium.webdriver.common.by import By
 from Common.Assert import Assertions
@@ -14,38 +14,43 @@ import time
 
 report_path = os.path.abspath(os.path.join(os.getcwd(), "..")) + '/Report'
 test = Assertions()
+conf = get_conf()
 
 
 class TestLogin(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.dr = OpenWebDr()
-        cls.dr.start_dr(url='https://testapply.qintelligence.cn/#/')
+        cls.dr.start_dr(url=conf.apply_url)
+        cls.cnt_sql = ConnectSql(host=conf.sql_host, user=conf.sql_user, pw=conf.sql_pw, database=conf.apply_database)
         cls.embaLoginElement = get_login_element().get('emba_login')
         cls.embaPhoneRegisterElement = get_login_element().get('emba_phone_register')
 
     @classmethod
     def tearDownClass(cls) -> None:
         time.sleep(5)
+        cls.cnt_sql.close_sql()
         cls.dr.dr_close()
 
     def test_01_register_emailInvalid(self):
         """
-        注册输入无效邮箱
+        emba手机号注册输入无效邮箱
         """
         self.dr.open_emba_login()
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('chinese_phone_register_element')))
         self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('email_input_element')), value='123456')
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('first_name_element')))
+        time.sleep(1)
         text = self.dr.base_get_text(loc=(By.XPATH, self.embaPhoneRegisterElement.get('email_tips_element')))
         test.assert_text(text, '请输入正确的邮箱')
 
     def test_02_register_emailThere(self):
         """
-        注册输入已存在邮箱
+        emba手机号注册输入已存在邮箱
         """
         self.dr.base_clean(loc=(By.XPATH, self.embaPhoneRegisterElement.get('email_input_element')))
-        self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('email_input_element')), value='2448140961@qq.com')
+        sql_rst = self.cnt_sql.select_sql(sql="select Email from AbpUsers order by CreationTime desc")
+        self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('email_input_element')), value=sql_rst[0][0])
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('first_name_element')))
         time.sleep(3)
         text = self.dr.base_get_text(loc=(By.XPATH, self.embaPhoneRegisterElement.get('email_tips_element')))
@@ -53,7 +58,7 @@ class TestLogin(unittest.TestCase):
 
     def test_03_register_cardCnIdInvalid(self):
         """
-        注册身份证不足18位
+        emba手机号注册身份证不足18位
         """
         self.dr.base_click(loc=(By.CLASS_NAME, self.embaPhoneRegisterElement.get('card_type_element')))
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_cnId_element')))
@@ -65,21 +70,35 @@ class TestLogin(unittest.TestCase):
 
     def test_04_register_cardCnIdThere(self):
         """
-        注册身份证已存在
+        emba手机号注册身份证已存在
         """
         self.dr.base_clean(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_number_element')))
-        self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_number_element')), value='123456789098765432')
+        sql_rst = self.cnt_sql.select_sql(sql="select IDCardNo from GSMRegisterInfos where CardType like '72' and ProjectCode = 'emba'  order by Id desc")
+        self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_number_element')), value=sql_rst[0][0])
         self.dr.base_click(loc=(By.XPATH, self.embaPhoneRegisterElement.get('first_name_element')))
         time.sleep(3)
         text = self.dr.base_get_text(loc=(By.XPATH, self.embaPhoneRegisterElement.get('card_tips_element')))
         test.assert_text(text, '证件号已存在')
 
+    def test_05_register_phoneInvalid(self):
+        """
+        emba手机号注册手机号格式不正确
+        """
+        self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('phone_input_element')), value='123456')
+        time.sleep(1)
+        tips_text = self.dr.base_get_text(loc=(By.XPATH, self.embaPhoneRegisterElement.get('phone_tips_element')))
+        test.assert_text(tips_text, '请输入正确的手机号')
 
-    # def test_emba_login(self):
-    #     self.dr.open_emba_login()
-    #     self.dr.base_input(loc=(By.XPATH, self.embaLoginElement.get('user_element')), value='18210690318')
-    #     self.dr.base_input(loc=(By.XPATH, self.embaLoginElement.get('pw_element')), value='qwer1234')
-    #     self.dr.base_click(loc=(By.XPATH, self.embaLoginElement.get('ps_element')))
+    def test_06_register_phoneThere(self):
+        """
+        emba手机号注册手机号已存在
+        """
+        self.dr.base_clean(loc=(By.XPATH, self.embaPhoneRegisterElement.get('phone_input_element')))
+        sql_rst = self.cnt_sql.select_sql(sql="select PhoneNumber from AbpUsers where PhoneNumber is not NULL order by CreationTime desc")
+        self.dr.base_input(loc=(By.XPATH, self.embaPhoneRegisterElement.get('phone_input_element')), value=sql_rst[0][0])
+        time.sleep(3)
+        tips_text = self.dr.base_get_text(loc=(By.XPATH, self.embaPhoneRegisterElement.get('phone_tips_element')))
+        test.assert_text(tips_text, '手机号已存在')
 
 
 if __name__ == '__main__':

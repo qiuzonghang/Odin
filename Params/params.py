@@ -11,7 +11,6 @@ import time
 import re
 
 log = MyLog()
-conf = Config()
 get_data = GetPages()
 
 

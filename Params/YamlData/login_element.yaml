@@ -24,6 +24,8 @@ login_element:
         card_gatId_element: '//*[@id="0ac35269-7375-42ff-9fda-8dd09d1debc1"]/ul/li[3]'
         card_number_element: '//*[@id="idCardNo"]'
         card_tips_element: '//*[@id="formRegister"]/div[5]/div/div/div'
+        phone_input_element: '//*[@id="phoneNumber"]'
+        phone_tips_element: '//*[@id="formRegister"]/div[6]/div/div/div'
 
       emba_login:
         user_element: '//*[@id="username"]'

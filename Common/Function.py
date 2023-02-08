@@ -19,6 +19,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 import os
 import time
+import pymssql
 
 log = MyLog()
 
@@ -36,7 +37,7 @@ class OpenWebDr:
 
     def start_dr(self, url, dr_type='edge', over_time=30):
         """
-        :param url: 打卡网址
+        :param url: 网址
         :param dr_type: 浏览器，仅支持火狐、谷歌、edge
         :param over_time: 隐式等待时间，实际未使用，忽略
         :return:
@@ -78,14 +79,12 @@ class OpenWebDr:
     def base_click(self, loc):
         el = self.base_find(loc)
         log.info("正在对:{} 元素进行行点击事件".format(loc))
-        # time.sleep(3)
         el.click()
 
     # 输入元素方法
     def base_input(self, loc, value):
         el = self.base_find(loc)
         log.info("正在对:{} 元素输入{}".format(loc, value))
-        # el.clear()
         el.send_keys(value)
 
     # 获取文本信息
@@ -99,7 +98,7 @@ class OpenWebDr:
         self.base_find(loc).clear()
         log.info("正在清空:{} 元素文本值".format(loc))
 
-    def base_select(self, loc_a, loc_b):
+    def base_select(self, loc_a, loc_b):    # 无调用
         ActionChains(self.dr).move_to_element(self.base_find(loc_a)).perform()
         self.base_click(loc_b)
         time.sleep(3)
@@ -137,9 +136,66 @@ class OpenWebDr:
         log.info("进入学术夏令营登录页")
 
 
-# test = OpenWebDr()
-#
-# test.start_dr(url='https://testapply.qintelligence.cn/#/')
-# test.open_mba_login()
-#
-# time.sleep(5)
+class ConnectSql:
+    """
+    数据库操作
+    """
+
+    def __init__(self, host, user, pw, database):
+        try:
+            self.conn = pymssql.connect(host, user, pw, database, charset='cp936')
+            self.cur = self.conn.cursor()
+            log.info("连接数据库" + host)
+        except:
+            log.error("连接数据库失败。")
+            raise
+
+    def select_sql(self, sql):
+        try:
+            self.cur.execute(sql)
+            log.info("查询数据，sql=%s" % sql)
+            return self.cur.fetchall()
+        except:
+            log.error("查询错误，sql=%s" % sql)
+            raise
+
+    def insert_sql(self, sql):
+        try:
+            self.cur.execute(sql)
+            log.info("插入数据，sql=%s" % sql)
+            return True
+        except pymssql._pymssql.OperationalError as e:
+            log.error("插入错误，错误信息：%s，sql=%s" % (e, sql))
+            raise
+        except:
+            log.error("插入错误，sql=%s" % sql)
+            raise
+
+    def close_sql(self):
+        try:
+            self.conn.commit()
+            self.cur.close()
+            self.conn.close()
+            log.info("断开数据库连接。")
+        except:
+            log.error("断开数据库失败。")
+
+
+def get_env():
+    """
+    :return: 执行环境
+    """
+    conf = Config('dev')
+    cnt_sql = ConnectSql(host=conf.sql_host, user=conf.sql_user, pw=conf.sql_pw, database=conf.test_database)
+    env = cnt_sql.select_sql("select env from flask_db.function_env where function_type = 'webAutoTest'")
+    cnt_sql.close_sql()
+    return env
+
+
+def get_conf(env=get_env()[0][0]):
+    """
+    :param env: 默认从数据库中获取执行环境
+    :return: 环境配置
+    """
+    return Config(env)
+

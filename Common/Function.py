@@ -20,6 +20,7 @@ from selenium.webdriver import ActionChains
 import os
 import time
 import pymssql
+import sys
 
 log = MyLog()
 
@@ -199,3 +200,5 @@ def get_conf(env=get_env()[0][0]):
     """
     return Config(env)
 
+
+print(type(sys.platform))
